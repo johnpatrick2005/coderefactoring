@@ -5,10 +5,10 @@ class Program
 {
     static void Main()
     {
-        string trollComment = "This website is for losers LOL!";
-        string cleanedComment = RemoveVowels(trollComment);
-        Console.WriteLine(cleanedComment);
-        Console.ReadKey(); 
+        string input = "This website is for losers LOL!";
+        string result = RemoveVowels(input);
+        Console.WriteLine(result);
+        Console.ReadLine();
     }
 
     static string RemoveVowels(string input)
